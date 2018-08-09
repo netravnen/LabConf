@@ -1,6 +1,7 @@
 #!/bin/bash
 
 cd ~/LabConf/hosts/$HOSTNAME/ && \
+git checkout master
 git fetch origin master && \
 git pull origin master && \
 vtysh -c 'sh run' > ~/LabConf/hosts/$HOSTNAME/frr.conf && \
