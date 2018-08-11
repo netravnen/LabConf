@@ -1,0 +1,9 @@
+no ipv6 prefix-list vultr-only-v6
+ipv6 prefix-list vultr-only-v6 permit 2406:4a00::/48
+ipv6 prefix-list vultr-only-v6 permit 2602:ffb0::/48
+ipv6 prefix-list vultr-only-v6 permit 2602:ffe5:800::/40
+ipv6 prefix-list vultr-only-v6 permit 2602:fff6:4::/48
+ipv6 prefix-list vultr-only-v6 permit 2604:ec80::/32
+ipv6 prefix-list vultr-only-v6 permit 2605:6400::/32
+ipv6 prefix-list vultr-only-v6 permit 2605:9880::/37 ge 38 le 38
+ipv6 prefix-list vultr-only-v6 permit 2607:4f00::/32
